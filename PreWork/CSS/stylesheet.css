@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Poppins:wght@100;200;400;500;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.black{
+    background-color: black;
+    color: whitesmoke;
+}
+
+nav{
+    display: flex;
+}
+
+nav p {
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+}
+
+.Mon{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #6599FF;
+}
+
+.Os{
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+color: #FFDE00;
+}
+
+nav ul {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+    padding: 2rem;
+    
+}
+
+nav li{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 2rem
+}
+
+.Mheader{
+background-image: url(../Images/simplebird.jpg);
+background-size: 100vw;
+background-repeat: no-repeat;
+height: 100vh;
+object-fit: cover;
+}
+
+.Header{
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    font-size: 10rem;
+    font-weight: 600;
+    padding: 2rem;
+}
+
+.Subheader{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 1rem;
+    padding: 2rem;
+}
+
+.Section{
+    background-color:rgba(125, 125, 125, 0.453);
+font-size: 4rem;
+font-weight: 600;
+padding: 3rem;
+
+}
+.pic1{
+    display: flex;
+   padding: 4rem;
+   justify-content: center;
+   
+}
+p{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 4rem;
+    text-align: center;
+}
+
+.semibold{
+    font-weight: 700;
+}
+
+.list{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    list-style: square;
+    padding: 2rem;
+}
