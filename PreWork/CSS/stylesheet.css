@@ -120,14 +120,26 @@ p{
 
 .YT{
     display: flex;
-    margin: 4rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem;
     padding: 2rem;
     justify-content: center;
 }
 
+
+iframe{
+    margin-bottom: 2rem;
+}
 .DYK{
+    color: white;
     padding: 2rem;
-    margin: 0 4rem;
+    
+}
+
+.DYK p {
+    color: white;
+    
 }
 .Thead{
     margin-bottom: 4rem;
